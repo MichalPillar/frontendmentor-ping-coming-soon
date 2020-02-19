@@ -110,7 +110,7 @@ body {
 
 /* Showcase image */
 .illustration {
-  width: 80vw;
+  width: 80%;
 }
 
 .illustration img {
@@ -122,9 +122,9 @@ body {
 /* Social media icons */
 .social-media {
   display: flex;
-  width: 30vw;
+  width: 30%;
   justify-content: space-around;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .fab {
@@ -133,13 +133,21 @@ body {
   width: 30px;
   height: 30px;
   color: var(--blue);
-  padding: 5px;
+  padding: 6px;
   border: 1px solid var(--pale-blue);
   border-radius: 50px;
 }
 
 /* Footer */
+.copyright-text {
+  font-size: 12px;
+  color: var(--gray);
+  margin-bottom: 5px;
+  text-align: center;
+}
+
 .attribution {
+  color: var(--gray);
   font-size: 11px;
   text-align: center;
 }
