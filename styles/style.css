@@ -108,6 +108,7 @@ body {
   outline: none;
 }
 
+/* Showcase image */
 .illustration {
   width: 80vw;
 }
@@ -116,6 +117,25 @@ body {
   width: 100%;
   height: auto;
   margin: 50px 0;
+}
+
+/* Social media icons */
+.social-media {
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.fab {
+  cursor: pointer;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  color: var(--blue);
+  padding: 5px;
+  border: 1px solid var(--pale-blue);
+  border-radius: 50px;
 }
 
 /* Footer */
