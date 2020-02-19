@@ -105,6 +105,11 @@ body {
   top: -30px;
 }
 
+.subscribe-form .btn:hover {
+  background-color: hsla(223, 87%, 63%, 0.8);
+  border: 1px solid hsla(223, 87%, 63%, 0.8);
+}
+
 .subscribe-form input[type='email']:focus,
 .subscribe-form .btn:focus {
   outline: none;
@@ -138,6 +143,11 @@ body {
   padding: 6px;
   border: 1px solid var(--pale-blue);
   border-radius: 50px;
+}
+
+.fab:hover {
+  color: white;
+  background-color: var(--blue);
 }
 
 /* Footer */
