@@ -71,7 +71,7 @@ body {
 }
 
 .subscribe-form .email-input {
-  width: 70vw;
+  width: 350px;
   border: 1px solid var(--pale-blue);
   border-radius: 50px;
   padding: 10px 30px;
@@ -103,7 +103,7 @@ body {
 }
 
 .subscribe-form .btn {
-  width: 70vw;
+  width: 350px;
   border: 1px solid var(--blue);
   background-color: var(--blue);
   color: white;
@@ -113,11 +113,6 @@ body {
   border-radius: 50px;
   margin-top: 5px;
   cursor: pointer;
-}
-
-.subscribe-form .btn:hover {
-  background-color: hsla(223, 87%, 63%, 0.8);
-  border: 1px solid hsla(223, 87%, 63%, 0.8);
 }
 
 .subscribe-form input[type='email']:focus,
@@ -131,7 +126,7 @@ body {
 }
 
 .illustration img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin-bottom: 50px;
 }
@@ -155,11 +150,6 @@ body {
   border-radius: 50px;
 }
 
-.fab:hover {
-  color: white;
-  background-color: var(--blue);
-}
-
 /* Footer */
 .copyright-text {
   font-size: 12px;
@@ -176,4 +166,56 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 50vw;
+    margin: 0 auto;
+  }
+
+  .description .text-large {
+    font-size: 2rem;
+  }
+
+  /* Form */
+  .subscribe-form {
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .subscribe-form .email-input {
+    width: 300px;
+    max-width: 70%;
+    margin-right: 10px;
+  }
+
+  .subscribe-form .error-text {
+    margin-bottom: 0;
+  }
+
+  .subscribe-form .btn {
+    margin-top: 0;
+    margin-bottom: 5px;
+    width: 200px;
+    max-width: 30%;
+  }
+
+  /* Image */
+  .illustration {
+    width: 50vw;
+    max-width: 80%;
+  }
+
+  /* Hover states */
+  .subscribe-form .btn:hover {
+    background-color: hsla(223, 87%, 63%, 0.8);
+    border: 1px solid hsla(223, 87%, 63%, 0.8);
+  }
+
+  .fab:hover {
+    color: white;
+    background-color: var(--blue);
+  }
 }
