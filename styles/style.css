@@ -172,6 +172,7 @@ body {
   .container {
     max-width: 50vw;
     margin: 0 auto;
+    height: 100%;
   }
 
   .description .text-large {
@@ -186,7 +187,6 @@ body {
   }
 
   .subscribe-form .email-input {
-    width: 300px;
     max-width: 70%;
     margin-right: 10px;
   }
@@ -217,5 +217,15 @@ body {
   .fab:hover {
     color: white;
     background-color: var(--blue);
+  }
+
+  /* Social media icons */
+  .social-media {
+    width: 20%;
+  }
+
+  /* Footer */
+  footer {
+    margin-bottom: 30px;
   }
 }
