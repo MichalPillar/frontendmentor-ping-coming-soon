@@ -93,7 +93,7 @@ body {
   font-style: italic;
   margin-bottom: 15px;
   position: absolute;
-  top: 50px;
+  top: 45px;
   visibility: hidden;
 }
 
@@ -193,6 +193,12 @@ body {
 
   .subscribe-form .error-text {
     margin-bottom: 0;
+  }
+
+  .subscribe-form .error-text.error {
+    left: 50px;
+    position: absolute;
+    visibility: visible;
   }
 
   .subscribe-form .btn {
